@@ -6,14 +6,14 @@ with open("README.md", "r") as readme_file:
 requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
 
 setup(
-    name="dxc-package",
+    name="dxc-package-v1",
     version="0.0.1",
     author="DXC",
     author_email="anjutyagi23@gmail.com",
     description="A small example package",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/DXC-AIStudio/dxc",
+    url="https://github.com/DXC-Package/dxc",
     packages=find_packages(),
     install_requires=requirements,
     classifiers=[
