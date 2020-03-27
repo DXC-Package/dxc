@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
 
 setup(
-    name="dxc-package-v3",
+    name="dxc-package-v4",
     version="0.0.1",
     author="DXC",
     author_email="anjutyagi23@gmail.com",
